@@ -1,8 +1,9 @@
 
-Exp 6 Simulation of Optical Communication System
+## Exp 6 Simulation of Optical Communication System
 ## Introduction to OptiPerformer 
-## Objective
+## AIM
 Download and install OptiPerformer software on your computer and run a sample file.
+
 
 ---
 
@@ -25,6 +26,24 @@ The system includes:
 
 ---
 
+
+## Theory
+
+Optiwave introduces OptiPerformer, a free photonic design automation tool which harnesses 
+the full power of OptiSystem and creates specific dynamic design scenarios which can be used by 
+students. 
+
+In this exercise, you will download and install OptiPerformer on your PC/laptop. Your license of 
+OptiPerformer will be capable of loading and running OptiSystem simulations prepared for this 
+course. 
+
+Once you have installed OptiPerformer, you can copy the first file (named: 
+‘Introduction_OptiPerformer.osp’) to your PC and run the simulation. The first file is a basic fiber 
+optic system consisting of a transmitter, a fiber and a receiver. The system is “instrumented” with 
+an optical power meter at the input to receiver (or the output of the fiber) and a bit error rate (BER) 
+analyzer.
+<img width="729" height="367" alt="518010840-7bd4e3da-aab4-4611-891e-32985cda693b" src="https://github.com/user-attachments/assets/f6e95f88-fd9f-4157-af1f-61b1ce87fe35" />
+
 ## Instructions
 
 1. Download and install OptiPerformer from [optiwave.com](https://optiwave.com).  
@@ -40,7 +59,7 @@ The system includes:
    - **Receiver** section includes:
      - Photodiode
      - Low-pass filter
-     - Decision circuit with BER analyzer  
+     - Decision circuit with BER analyzer
 6. Run the simulation using the **Start** button.  
    - Progress will be displayed.
    - Message “Calculation Finished!” appears upon completion.  
@@ -87,5 +106,6 @@ The system includes:
 ---
 
 ## RESULT
+The OptiPerformer simulation successfully demonstrated how increasing fiber length causes reduced received power, degraded Q-factor, higher BER, and a progressively closing eye diagram in an optical communication system.
 
-*(Summarize key findings from simulation and analysis)*
+
